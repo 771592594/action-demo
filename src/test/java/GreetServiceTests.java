@@ -7,6 +7,7 @@ public class GreetServiceTests {
         GreetService greetService = new GreetService();
         for (int i = 0; i < 10; i++) {
             greetService.greet("wcz" + i);
+            System.out.println(10 / i);
         }
     }
 }
